@@ -1,1 +1,1 @@
-# YouTube-Truffle-Channel-Points-Claimer
+# YouTube Truffle Channel Points Claimer
