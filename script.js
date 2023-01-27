@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name YouTube Truffle Channel Points Claimer
-// @version 3.0
+// @version 3.1
 // @author JakeBathman
 // @description Automatically claim channel points from Truffle
 // @match https://*.youtube.com/*
@@ -37,5 +37,5 @@ function claimPoints() {
 // Claim to start
 claimPoints();
 
-// Claim points every 5 minutes (plus 5 seconds for buffer)
-setInterval(claimPoints, 5 * 61 * 1000);
+// Claim points every 5 minutes (plus 10 seconds for buffer)
+setInterval(claimPoints, 5 * 70 * 1000);
